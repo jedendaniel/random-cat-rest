@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: random-cat
+
+development:
+  templateResolverCacheable: false
+
+aws:
+#  enabled: true
+  region: eu-central-1
+  bucketName: ddd-cat-bucket
+
+scheduled:
+  reset: "0 0 0 * * *"
